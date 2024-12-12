@@ -1,0 +1,46 @@
+.container3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.container3 div {
+    display: inline-flex;
+    align-items: center;
+}
+
+.svg {
+    overflow: visible  
+}
+
+.tooltip {
+    position: absolute;
+
+    text-align: center;
+    border: 0px;
+    border-radius: 2px;
+
+
+    padding: 0px;
+    margin: 0px;
+
+    color: black;
+    background: gray;
+    pointer-events: none;
+    
+  }
+  
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    height: 28px;
+    padding: 5px;
+    font: 12px sans-serif;
+
+
+    border: 0px;
+    border-radius: 3px;
+    pointer-events: none
+  }
+
